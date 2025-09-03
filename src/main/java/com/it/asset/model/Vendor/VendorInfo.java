@@ -3,9 +3,11 @@ package com.it.asset.model.Vendor;
 import java.time.Instant;
 import java.util.UUID;
 
+import lombok.Builder;
 import lombok.Data;
 
 @Data
+@Builder
 public class VendorInfo {
     private UUID id;
     private String name;

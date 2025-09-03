@@ -1,9 +1,11 @@
 package com.it.asset.model.Vendor;
 
+import lombok.Builder;
 import lombok.Data;
 import java.util.UUID;
 
 @Data
+@Builder
 public class CreateVendor {
     private UUID organizationId;
     private String name;

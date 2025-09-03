@@ -7,8 +7,8 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 import lombok.Data;
 
-@Data
 @Entity
+@Data
 @Table(name = "vendors")
 public class VendorEntity extends BaseEntity {
     @Column(name = "organization_id")
