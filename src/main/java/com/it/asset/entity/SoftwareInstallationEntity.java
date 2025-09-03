@@ -14,7 +14,7 @@ import lombok.Data;
 @Data
 @Entity
 @Table(name = "software_installations")
-public class SofwareInstallationEntity {
+public class SoftwareInstallationEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;

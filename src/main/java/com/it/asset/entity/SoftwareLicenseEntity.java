@@ -15,7 +15,7 @@ import lombok.Data;
 @Data
 @Entity
 @Table(name = "software_licenses")
-public class SofwareLicenseEntity {
+public class SoftwareLicenseEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;

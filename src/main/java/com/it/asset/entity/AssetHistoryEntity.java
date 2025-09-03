@@ -14,7 +14,7 @@ import lombok.Data;
 @Data
 @Entity
 @Table(name = "asset_history")
-public class AssetHistory {
+public class AssetHistoryEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
